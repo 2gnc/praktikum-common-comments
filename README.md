@@ -11,3 +11,6 @@
 Сочетание клавиш ```control + space ``` - набираете ```p-``` и выбираете из списка нужный сниппет.
 
 ![](example.gif)
+
+## Contributing
+Pull-requests are welcome.
