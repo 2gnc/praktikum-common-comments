@@ -1,16 +1,12 @@
-# Набор сниппетов для кодревью
+# Набор типовых комментариев для кодревью
 
-## Установка в VS Code
+[Комментарии для 1 и 2 спринтов](https://github.com/2gnc/praktikum-common-comments/blob/master/docs/1-2-sprints.md)
 
-1 способ: добавить файл в папку с приложением ```Code/User/snippets/html.json```
+[Комментарии для 2 и 3 спринтов](https://github.com/2gnc/praktikum-common-comments/blob/master/docs/3-4-sprints.md)
 
-2 способ: через Настройки - User Snippets - New Global Snippets File 
-
-## Использование
-
-Сочетание клавиш ```control + space ``` - набираете ```p-``` и выбираете из списка нужный сниппет.
-
-![](example.gif)
+[Общие комментарии для проверки работ по верстке](https://github.com/2gnc/praktikum-common-comments/blob/master/docs/common-html.md)
 
 ## Contributing
 Pull-requests are welcome.
+
+Для добавления/изменения контента пожалуйста, отводите ветку от `master` и присылайте пул-реквесты.
