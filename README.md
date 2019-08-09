@@ -4,6 +4,8 @@
 
 [Комментарии для 3 и 4 спринтов](https://github.com/2gnc/praktikum-common-comments/blob/master/docs/3-4-sprints.md)
 
+[Комментарии для 5 спринта](/docs/5-sprint.md)
+
 [Общие комментарии для проверки работ по верстке](https://github.com/2gnc/praktikum-common-comments/blob/master/docs/common-html.md)
 
 ## Contributing
