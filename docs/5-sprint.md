@@ -21,6 +21,7 @@
 | Ошибка        | Текст комментария|
 | ------------- | ------------- |
 | Некорректное декларирование переменных | `<!-- Надо исправить: Переменная декларируется некорректным образом. Используйте let / const для декларирования переменной.-->` |
+| Используются не строгие сравнения | `<!-- Можно лучше: Использование не строгих сравнений черевато динамическим приведением типов. Для избежания некорректной работы воспользуйтесь === https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D1%8B_%D1%81%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F#%D0%A1%D1%82%D1%80%D0%BE%D0%B3%D0%BE_%D1%80%D0%B0%D0%B2%D0%BD%D0%BE_()-->` |
 |||
 
 
@@ -29,5 +30,4 @@
 | Ошибка        | Текст комментария|
 | ------------- | ------------- |
 | Все захардкожено, логику можно упростить методами массивов | `<!-- Можно лучше: Алгоритм работает корректно, однако логика работы с массивом может быть сильно упрощена, к тому же многие методы работают намного быстрее. Попробуйте воспользоваться одним из наиболее подходящих методов: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/map  https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/filter  https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/sort  https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce-->` |
-| Используются не строгие сравнения | `<!-- Можно лучше: Использование не строгих сравнений черевато динамическим приведением типов. Для избежания некорректной работы воспользуйтесь === https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D1%8B_%D1%81%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F#%D0%A1%D1%82%D1%80%D0%BE%D0%B3%D0%BE_%D1%80%D0%B0%D0%B2%D0%BD%D0%BE_()-->` |
 | Конструкция if (constA === constB) { return true } else { return false } | `<!-- Можно лучше: Условия такого рода можно упростить до return constA === constB -->` |
