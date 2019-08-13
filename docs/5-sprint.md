@@ -32,3 +32,27 @@
 | ------------- | ------------- |
 | Все захардкожено, логику можно упростить методами массивов | `<!-- Можно лучше: Алгоритм работает корректно, однако логика работы с массивом может быть сильно упрощена, к тому же многие методы работают намного быстрее. Попробуйте воспользоваться одним из наиболее подходящих методов: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/map  https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/filter  https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/sort  https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce-->` |
 | Конструкция if (constA === constB) { return true } else { return false } | `<!-- Можно лучше: Условия такого рода можно упростить до return constA === constB - такое выражение приводится к булевому значению.-->` |
+| Конструкция if (someCondition) {return 0} else {return someData} | `/* Можно лучше: При использовании return внутри if, оператор else можно опустить, т.к. если if выполнится, то будет возврат из функции и код под блоком if выполнен 				не будет: if (someCondition) { return 0; }  return data;  */` |
+| Задача 1 и 3: Для разворота массива применен цикл | `/* Можно лучше: Для разворота массива можно использовать метод массива reverse() https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse */` |
+| Задача 3: Применено сложное решение | `/* Можно лучше: более короткое решение: return str.split(' ').reverse().join(' ') */` |
+| Задача 5: проверка if (c === 'a' \|\| c === 'я' \|\| c === 'о' ...) | `/* Можно лучше: Лучше оставить гласные в массиве vowels. Для проверки есть ли элемент в массиве можно воспользоваться Array.includes(): if (vowels.includes(str.charAt(i))) vowelsCount++; */` |
+| Задача 5: Применено сложное решение | `/*	А вот как можно было решить задачу с помощью регулярного выражения   const m = str.match(/[аяоёуюыиэе]/gi); return m === null ? 0 : m.length;*/` |
+| Задача 8: Алгоритм хранит массив всех чисел | `/* Можно лучше: алгоритм хранит массив всех чисел, это расходует память. Достаточно хранить только последние два числа */` |
+| Задача 9: Перебор чисел до n | `/* Можно лучше: достаточно перебора до корня квадратного от n */` |
+| Задача 14: | `/* Для решения задачи можно было применить решето Эратосфена https://ru.wikipedia.org/wiki/Решето_Эратосфена */` |
+
+
+## Фидбэк
+
+##### Если решены не все задачи: 
+Рекомендую для практики в свободное время прорешать и оставшиеся задачи,
+некоторые из них бывают на собеседованиях. Например вот интересный разбор задачи 13:
+https://habr.com/ru/company/skillbox/blog/443886/   
+
+##### Посоветовать сайты где можно потренироваться решать задачи на алгоритсы
+Для подготовки к собеседованиям по алгоритмам полезно будет порешать
+задачи на таких сайтах:
+https://www.hackerrank.com/
+https://leetcode.com/
+https://contest.yandex.ru/contest/8458/enter/
+https://www.codingame.com
