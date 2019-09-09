@@ -128,3 +128,4 @@
 | ------------- | ------------- |
 | Все захардкожено, логику можно упростить методами массивов | `<!-- Можно лучше: Алгоритм работает корректно, однако логика работы с массивом может быть сильно упрощена, к тому же многие методы работают намного быстрее. Попробуйте воспользоваться одним из наиболее подходящих методов: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/map  https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/filter  https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/sort  https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce-->` |
 | Конструкция if (constA === constB) { return true } else { return false } | `<!-- Можно лучше: Условия такого рода можно упростить до return constA === constB - такое выражение приводится к булевому значению.-->` |
+|||
