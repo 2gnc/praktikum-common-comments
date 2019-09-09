@@ -6,6 +6,10 @@
 
 [Комментарии для 5 спринта](/docs/5-sprint.md)
 
+[Чеклисты для самопроверки 3 спринт](/checklists/3-sprint-checks.md)
+
+[Чеклисты для самопроверки 4 спринт](/checklists/4-sprint-checks.md)
+
 [Общие комментарии для проверки работ по верстке](https://github.com/2gnc/praktikum-common-comments/blob/master/docs/common-html.md)
 
 ## Contributing
